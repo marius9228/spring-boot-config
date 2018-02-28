@@ -1,0 +1,11 @@
+server:
+  context-path: /myBoot
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/spring_tests
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: none
